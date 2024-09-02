@@ -4,8 +4,8 @@ the KeyError by raising a custom exception if the username is not found in the u
 database(dictionary)."""
 
 
-username = input('x')
-password = input('y')
+username = input('username')
+password = input('password')
 database = {'a': 'lion', 'b': 'system'}
 try:
     if database[username] == password:
